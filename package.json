@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Spezp/github-avatar-downloader#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "process.argv": "^0.1.0",
     "request": "^2.83.0"
   }
 }
