@@ -20,8 +20,6 @@ function getRepoContributors(repoOwner, repoName, cb) {
 }
 
 function downloadImageByURL(url, filePath) {
-  console.log(filePath);
-  console.log(url);
   request.get(url)
     .on('error', function (err) {
       throw err;
